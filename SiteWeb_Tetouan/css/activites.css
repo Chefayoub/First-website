@@ -1,0 +1,314 @@
+/* Debut du CSS pour page Tetouan accueil : Activités */
+
+
+
+/* L'arrier de la page */
+body
+{
+	font-size: large;
+	font-family: 'BallparkWeiner',georgia;
+	background: url('../images/ville.jpg') fixed no-repeat;
+	
+}
+  
+/*---------------------------------------*/
+/* Header */
+header
+{
+	border: 10px solid #000000;
+	background: url('../images/tetouan.jpg') no-repeat;
+	padding:10%;
+	margin-bottom:5%;
+	overflow:auto;
+}
+
+header h1
+{
+    font-family: georgia, 'BallparkWeiner';
+    font-size: 3em;
+    margin: 0 0 0 10px;
+}
+
+
+.menu ul
+{
+    list-style-type: none;
+	display: flex;
+
+}
+
+.menu li
+{
+    margin-right: 15px;
+}
+
+.menu a
+{
+    font-size: 1.3em;
+    color: #290E4B;
+    padding-bottom: 3px;
+    text-decoration: blink;
+}
+
+.menu a:hover
+{
+    color: #93D162;
+    border-top: 3px solid #93D162;
+}
+
+
+
+/*---------------------------------------*/
+
+
+article
+{
+	display:inline-block;
+	border-radius: 5px;
+	margin-bottom:1%;
+	font-size:large;
+	width:50%;
+	overflow:hidden;
+}
+
+article img
+{
+    margin-right: 5px;
+	width: 60%;
+    height: 60%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+article h2
+{
+	text-align:center;
+    text-decoration:underline;
+    border:2px double #000000;
+    border-radius:5%;
+    background:#FFFFFF;
+
+}
+
+
+/* Article 1*/
+.smir_park
+{
+	background:#15808E ;
+	border: 10px solid #FFFFFF;
+	border-radius:150px #FFFFFF;
+	text-align:justify;
+}
+.smir_park p 
+{background:#72C3CF;
+}
+
+/* Article 2*/
+.kiddy_park
+{
+	background: #AD4639;
+	width:47%;
+	position:absolute;
+	border: 10px solid #FFFFFF;
+	border-radius:150px #FFFFFF;
+	text-align:justify;
+}
+.kiddy_park p 
+{background:#CF9189;
+}
+
+/* Article 3*/
+.golf
+{
+	background:#4C8952  ;
+	width: 30%;
+    height: 30%;
+	text-align:justify;
+	border: 10px solid #FFFFFF;
+	border-radius:150px #FFFFFF;
+}
+.golf p
+{background:#82B37F;
+}
+
+
+/* Article 4*/
+.quad_discovery
+{
+	background:#935A1F;
+	width: 30%;
+    height: 30%;
+	position:relative;
+	border: 10px solid #FFFFFF;
+	border-radius:150px #FFFFFF;
+	text-align:justify;
+}
+.quad_discovery p
+{background:#CB9C6B;
+}
+
+
+/* Article 5*/
+.jet_ski
+{
+	background:#653C6F ;
+	width: 30%;
+    height: 30%;
+	position:relative;
+	border: 10px solid #FFFFFF;
+	border-radius:150px #FFFFFF;
+	text-align:justify;
+}
+.jet_ski p
+{background:#BE8FCA;
+}
+/*---------------------------------------*/
+
+/*TABLEAU + DONNEES*/
+/*Nav 2*/
+.donnees
+{
+    background:url('../images/mosaique2.jpg') repeat;
+	color:#000000;
+    margin-left:30%;
+	margin-right:35%;
+	max-height:30%;
+	border: 10px solid #FFFFFF;
+	border-radius:150px #FFFFFF;
+}
+.donnees h3
+{background:#FFFFFF;
+}
+.donnees h1
+{text-align:center;
+text-decoration:underline;
+border:2px double #000000;
+border-radius:5%;
+background:#FFFFFF;
+}
+.table
+{
+	
+	margin-bottom:5%;
+	margin-top:5%;
+    width:100%;
+    position:relative;
+	border: 10px solid #FFFFFF;
+	border-radius:150px #FFFFFF;
+
+}
+
+table h1
+{
+	border:15px groove #969696;
+	margin-left:25%;
+	width:50%;
+	background:#FFFFFF;
+	text-decoration:underline;
+}
+
+table 
+{
+	background:#FFFFFF;
+    border-collapse: collapse;
+    border: 2px solid #000000;
+    letter-spacing: 1px;
+    font-size: x-large;
+}
+
+td, th 
+{
+    border: 1px solid #000000;
+    padding: 10px 20px;
+}
+td 
+{
+    text-align: center;
+}
+/*---------------------------------------*/
+
+/*---------------------------------------*/
+
+/* Footer */
+footer
+{
+	font-family: 'BallparkWeiner',georgia;
+	background: url('../images/mosaique.jpg') repeat;
+	border: 10px ;
+	border-radius:150px;
+	padding:1%;
+	margin-top:5%;
+
+}
+
+footer div
+{
+	display: inline-block;
+	border: 5px solid #ffffff;
+	margin-left:10%;
+}
+
+
+/*Premier div*/
+.avion
+{
+	font-size:small;
+	background: #5DADE2E0;
+	border: 10px ;
+	border-radius:25px;
+}
+.avion img
+{
+	margin-left:30%;
+}
+.avion h1
+{  text-decoration:underline;
+   color:#FFFFFF;
+}
+.avion h2
+{
+  color:#FF0000; 
+  animation: colorblink 1s infinite;
+}
+@keyframes colorblink { 
+40% { color:#FAFF00; }
+50% { color:#00FF35; } 
+}
+
+
+/*Deuxieme div*/
+.sociaux
+{
+	
+	background: #5DADE2E0;
+	border: 10px ;
+	border-radius:25px;
+}
+.sociaux h2
+{
+	text-decoration:underline;
+	color:#FFFFFF;
+
+
+}
+.sociaux img
+{
+	margin-left:10%;
+	border: 10px ;
+	border-radius:25px;
+}
+
+
+/*Troisieme div */
+.bouton
+{
+    margin-left:20%;
+	text-align:center;
+    text-decoration:underline;
+    border:2px double #000000;
+    border-radius:10%;
+    background:#FFFFFF;
+}
+
+
+
